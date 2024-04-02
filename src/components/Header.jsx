@@ -1,11 +1,12 @@
-import { useMemo } from 'react';
-
-export default function Header({ carrito, removeFromCart, increaseQuantity, decreaseQuantity, clearCart }) {
-	//* estado derivado
-	const isEmpty = useMemo(() => carrito.length === 0, [carrito]);
-
-	const carritoTotal = useMemo(() => carrito.reduce((total, item) => total + item.quantity * item.price, 0), [carrito]);
-
+export default function Header({
+	carrito,
+	removeFromCart,
+	increaseQuantity,
+	decreaseQuantity,
+	clearCart,
+	isEmpty,
+	carritoTotal,
+}) {
 	return (
 		<header className='py-5 header'>
 			<div className='container-xl'>
