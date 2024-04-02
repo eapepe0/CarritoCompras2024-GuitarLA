@@ -1,8 +1,19 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Carrito de Compras
 
-Currently, two official plugins are available:
+Tiene LocalStorage , proximamente TypeScript y customHooks:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy
+
+[Link a la pagina](https://660b3a9342bca63906c50191--unrivaled-macaron-582eac.netlify.app/)
+
+## Capturas
+
+![screen-0](https://raw.githubusercontent.com/eapepe0/CarritoCompras2024-GuitarLA/main/screen-0.jpg)
+![screen-1](https://raw.githubusercontent.com/eapepe0/CarritoCompras2024-GuitarLA/main/screen-1.jpg)
+![screen-2](https://raw.githubusercontent.com/eapepe0/CarritoCompras2024-GuitarLA/main/screen-2.jpg)
+
+## Performance
+
+![performance](https://raw.githubusercontent.com/eapepe0/CarritoCompras2024-GuitarLA/main/performance.jpg)
